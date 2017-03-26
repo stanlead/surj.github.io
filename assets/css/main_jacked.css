@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, div, h1, h2, h3, h4, h5, h6, ul, li, ol, img, form {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fff; /* url(images/Untitled-2.jpg) repeat-x; */
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 88px;
+	padding: 0 0 0 0;
+}
+
+#header h1 a {
+	display: block;
+	float: left;
+	background: url(images/Pano_Banner.JPG) no-repeat;
+	text-indent: -9999px;
+	height: 78px;
+	width: 358px;
+	margin-top: 4px;
+}
+
+#header ul#nav {
+	float: right;
+	list-style: none;
+	margin:  34px 0 0 0;
+}
+
+	#header ul#nav li {
+		float: left;
+		padding: 0 0 0 10px;
+		margin: 0 18px 0 0;
+	}
+	
+	#header ul#nav li a {
+		font-size: 14px;
+		color: #3e3947;
+		text-decoration: none;
+	}
+	
+	#header ul#nav li a:hover, #header ul#nav li a.active {
+		color: #666;
+	}
+
+#quote {
+	clear: both;
+	height: 298px;
+}
+
+	#quote div.feature_text {
+		float: left;
+		width: 470px;
+	}
+	
+	#quote div.feature_text h2 {
+		width: 427px;
+		height: 125px;
+		margin: 43px 0 21px 0;
+		background: url(images/banner.jpg);
+		text-indent: -9999px;
+	}
+	
+	#quote div.feature_text p {
+		color: #fff;
+		font-size: 21px;
+		line-height: 28px;
+		margin: 0 0 37px 0;
+	}
+	
+	#quote div.feature_photo {
+		float:right;
+	}
+	
+#content {
+	margin: 56px 0 43px 0;
+}
+
+#content p {
+	color: #999;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#content #main {
+	width: 668px;
+	float: left;
+	margin: 0 11px 0 0;
+}
+
+	#container #content #main p a {
+		color: #333;
+		text-decoration: none;
+	}
+	
+	#container #content #main p a:hover {
+		color: #999;
+	}
+	#content #main h3 {
+		color: #666666;
+		font-size: 23px;
+		line-height: 28px;
+		font-weight: normal;
+		margin: 0 0 35px 0;
+	}
+	
+#content #side {
+	width: 263px;
+	min-height: 305px;
+	float: left;
+	background: url(images/LauraLinkedInPhoto.jpg) top no-repeat;
+	margin: 
+}
+
+	#content #side div.news h4 {
+	background: url(images/COLake.jpg) top no-repeat;
+	height: 39px;
+	width: 183px;
+	text-indent: -9999px;
+	margin: 18px 0 0 38px;
+	}
+	
+	#content #side div.news p {
+	margin: 29px 20px 0 29px;
+	}
+	
+	#container #content #side p a {
+		color: #333;
+		text-decoration: none;
+	}
+	
+	#container #content #side p a:hover {
+		color: #999;
+	}
+
+#footer_container {
+	background-color: #eeeeee;
+}
+
+#footer {
+	width: 960px;
+	background: url(images/ProfilePhoto.JPG) center top no-repeat;
+	margin: 0 auto;
+	padding: 22px 0 25px 0;
+}
+
+	#footer div.footernav {
+		width: 150px;
+		float: left;
+	}
+	
+		#footer div.footernav ul {
+			list-style: none;
+		}
+		
+		#footer div.footernav ul li a {
+			font-size: 12px;
+			line-height: 28px;
+			text-decoration: none;
+			color: #3e3947;
+		}
+		
+		#footer div.footernav ul li a:hover, #header ul#nav li a.active {
+		color: #666;
+	}
+
+	#footer div.philosophy {
+		width: 396px;
+		float: left;
+		margin: 0 115px 0 20px;
+	}
+	
+	#footer div.philosophy h5 {
+		color: #333;
+		font-size: 22px;
+	}
+	
+	#footer div.philosophy p {
+		color: #999;
+		font-size: 12px;
+	}	
+	
+	#footer div.contact {
+		width: 252px;
+		float: left;
+		margin: 0 0 0 20px;
+	}
+	
+	#footer div.contact h6 {
+		color:#333;
+		font-size: 22px;
+	}
+		
+#footer_container #footer .contact p {
+	font-size: 12px;
+}
+#container #content #main img {
+	float: right;
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 20px;
+}
